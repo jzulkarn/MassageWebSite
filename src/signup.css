@@ -1,0 +1,125 @@
+a {
+  text-decoration: none;
+}
+
+.signup-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#container-signup {
+  margin: 200px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-wrap-signup {
+  background: #fff;
+  border: 1px solid #bbb;
+  padding: 30px 25px;
+  color: #333;
+}
+
+.form-wrap-signup h1,
+.form-wrap-signup p {
+  text-align: center;
+}
+
+.form-wrap-signup .form-group-signup {
+  margin-top: 10px;
+}
+
+.form-wrap-signup .form-group-signup input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: rgba(221, 221, 221, 0.616) 1px solid;
+  border-radius: 5px;
+}
+
+.form-wrap-signup .form-group-signup input[type="text"]:hover {
+  border: rgba(119, 118, 118, 0.548) 1px solid;
+}
+
+.form-wrap-signup .form-group-signup input[type="text"]:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 3px #9ecaed;
+}
+
+.form-wrap-signup .form-group-signup input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: rgba(221, 221, 221, 0.616) 1px solid;
+  border-radius: 5px;
+}
+
+.form-wrap-signup .form-group-signup input[type="password"]:hover {
+  border: rgba(119, 118, 118, 0.548) 1px solid;
+}
+
+.form-wrap-signup .form-group-signup input[type="password"]:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 3px #9ecaed;
+}
+
+.form-wrap-signup .form-group-signup input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #f75151;
+  border-color: #f75151;
+}
+
+.form-wrap-signup .form-group-signup input[type="submit"]:focus {
+  outline: none;
+  border-color: none;
+  box-shadow: none;
+}
+
+.form-wrap-signup .form-group-signup input[type="submit"]:hover {
+  background-color: #ff5656;
+  border-color: #ff5656;
+}
+
+.login-link {
+  text-align: center;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.form-wrap-signup button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #49c1a2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-wrap-signup button:hover {
+  background: #37a08e;
+}
+
+/* .form-wrap-signup .bottom-text {
+  font-size: 13px;
+  margin-top: 20px;
+} */
+
+/* footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer a {
+  color: #49c1a2;
+  font-size: 25px;
+} */
