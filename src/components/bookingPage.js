@@ -1,7 +1,16 @@
 import React, { Component } from "react";
 import "../style.css";
 import { Link } from "react-router-dom";
+
 class BookingPage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { selection: "" };
+  }
+  selectMassage = option => {
+    this.setState({ selection: option });
+  };
+
   render() {
     return (
       <div>
@@ -31,11 +40,44 @@ class BookingPage extends Component {
             </li>
           </ul>
         </nav>
-        <h1>Booking Page</h1>
-        <li>
-          <Link to="/login">Login</Link>
-        </li>
-        <header id="showcase"></header>
+        <header id="signup" className="text-booking">
+          <li>
+            <Link to="/login">Login</Link>
+          </li>
+          <h2>Click to select Massage Type</h2>
+
+          {!this.state.selection ? (
+            <div className="text-color">
+              <div onClick={() => this.selectMassage("Relaxation")}>
+                Relaxation
+              </div>
+              <div onClick={() => this.selectMassage("Deep Tissue")}>
+                Deep Tissue
+              </div>
+              <div
+                className="text-bold"
+                onClick={() => this.selectMassage("Therapeutic")}
+              >
+                Therapeutic
+              </div>
+              <div
+                className="text-bold"
+                onClick={() => this.selectMassage("Sport")}
+              >
+                {" "}
+                Sport
+              </div>
+              <div
+                className="text-bold"
+                onClick={() => this.selectMassage("Pre/Post Natal")}
+              >
+                Pre/Post Natal
+              </div>
+            </div>
+          ) : (
+            <div className="text-booking"> {this.state.selection} </div>
+          )}
+        </header>
       </div>
     );
   }

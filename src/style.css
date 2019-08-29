@@ -43,6 +43,13 @@ p {
 .text-primary {
   color: blue;
 }
+.text-booking {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 2rem;
+}
 .text-color {
   color: black;
   font-weight: bold;

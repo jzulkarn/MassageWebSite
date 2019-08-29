@@ -8,7 +8,7 @@ import PricePage from "./components/PricePage";
 import BookingPage from "./components/BookingPage";
 import ContactPage from "./components/ContactPage";
 import LoginPage from "./components/LoginPage";
-import Signup from "./components/Signup";
+import Signup from "./components/signup";
 /* import CreateAccount from "./components/CreateAccount";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard"; */

@@ -40,11 +40,8 @@ class MenuPage extends Component {
             A massage that is entirely focused to calm the nervous system. A
             relaxation massage is exceptionally beneficial for increasing the
             level of oxygen in the blood by increasing circulation throughout
-            the body,
-          </p>
-          <p className="text-color">
-            decreasing muscle toxins, improving circulation and is most known to
-            decrease levels of stress.
+            the body, decreasing muscle toxins, improving circulation and is
+            most known to decrease levels of stress.
           </p>
 
           <h2 class="text-color">2-DEEP TISSUE MASSAGE</h2>
